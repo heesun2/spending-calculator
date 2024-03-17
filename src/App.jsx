@@ -28,7 +28,7 @@ const App = () => {
   }
 
   const handleAmount = (e) => {
-    setAmount(e.target.valueAsNumber)
+    setAmount(e.target.valueAsNumber);
   }
 
   const handleDelete = (id) => {
