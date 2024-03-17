@@ -30,7 +30,6 @@ const App = () => {
   const handleAmount = (e) => {
     setAmount(e.target.valueAsNumber)
   }
-  
 
   const handleDelete = (id) => {
     const newExpenses = expenses.filter(expense => expense.id !== id)
@@ -54,7 +53,6 @@ const App = () => {
     setAmount(amount);
     setEdit(true);
   }
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -86,7 +84,6 @@ const App = () => {
       })
     }
   }
-
 
     return(
       <main className="main-container">
@@ -131,6 +128,5 @@ const App = () => {
       </main>
     )
 }
-
 
 export default App;
